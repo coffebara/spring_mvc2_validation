@@ -4,10 +4,8 @@ import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 
-
 import java.io.IOException;
 import java.util.UUID;
-import java.util.logging.LogRecord;
 
 @Slf4j
 public class LogFilter implements Filter {
